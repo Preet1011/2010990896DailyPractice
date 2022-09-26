@@ -1,6 +1,6 @@
 import React from 'react';
-import Form from './Form';
-import Test from './Test';
+import "./App.css";
+
 const App=()=>{
     return(
         //React fragment
