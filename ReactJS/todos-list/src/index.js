@@ -1,9 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import Home from './components/Home';
+import Form from './components/Form';
+export default function App(){
+  return (
+    <div>
+      <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Home/>}>
+                <route path='form' element={<Form/>}/>
+            </Route>
+          </Routes>
+      </BrowserRouter>
+    </div>
+  )
+}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
