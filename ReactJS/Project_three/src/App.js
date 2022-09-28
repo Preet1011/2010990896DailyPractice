@@ -10,7 +10,8 @@ const App=()=>{
     <div className='App'>
       <Form/>      
       <h1>Hello world </h1>
-      <h2>This is heading 2</h2>
+      <h2> Devill tyagi </h2>
+      <h3> Hello how are u bro </h3>
     </div>
   );
 }
