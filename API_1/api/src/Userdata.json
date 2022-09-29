@@ -1,0 +1,20 @@
+[
+    {
+        "Name":"Preet Tyagi",
+        "Mob":784594,
+        "Email":"Preet@gmial.com",
+        "Address":"Uttar Pradesh"
+    },
+    {
+        "Name":"Montu Garg",
+        "Mob": 9874562,
+        "Email":"Montu@gmial.com",
+        "Address":"Punjab"
+    },
+    {
+        "Name":"Paras Ramola ",
+        "Mob": 854678,
+        "Email":"Pars@gmial.com",
+        "Address":"Chandigarh"
+    }
+]
