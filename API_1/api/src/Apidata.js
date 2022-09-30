@@ -3,8 +3,8 @@ import Userdata from './Userdata.json';
 const Apidata=()=>{
     return(
         <div>
-            <h1>this is data component</h1>
-            <table className="table-bordered bg-primary" >
+            <h1>This is data component</h1>
+            <table className="table-bordered bg-secondary" >
                 <thead>
                     <tr>
                         <th>Index</th>
