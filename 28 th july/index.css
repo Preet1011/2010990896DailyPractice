@@ -1,8 +1,8 @@
 tr #th1Heading{
     background-color: aqua;
-    color: red;
+    color: yellow;
 }
 table th,
 td{
-    border: 1px solid green;
+    border: 1px solid lightgoldenrodyellow;
 }
