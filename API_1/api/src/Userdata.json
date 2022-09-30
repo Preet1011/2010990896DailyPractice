@@ -16,5 +16,11 @@
         "Mob": 854678,
         "Email":"Pars@gmial.com",
         "Address":"Chandigarh"
+    },
+    {
+        "Name":"Punit jindal",
+        "Mob": 78945123,
+        "Email":"punit@gmial.com",
+        "Address":"Rajpura"
     }
 ]
