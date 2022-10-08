@@ -16,6 +16,7 @@ function App() {
       <Home/>
       <About/>
       <Contact/>
+      <About></About>
       
     </div>
     </Router>
