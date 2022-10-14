@@ -27,7 +27,7 @@ export default function Navbar() {
                     
                 </ul>
                 <Link to="/" className='btn btn-outline-light m-2' id="loginBtn">Login</Link>
-                <Link to="/AddUser" className='btn btn-outline-light ' id="addBtn" >Add User</Link>
+                <Link to="/AddUser" className='btn btn-outline-dark ' id="addBtn" >Add User</Link>
             </div>
             
         </nav>
