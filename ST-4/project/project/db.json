@@ -1,13 +1,6 @@
 {
   "users": [
     {
-      "name": "himanshu",
-      "username": "himanshu875",
-      "email": "himanshu@gmail.com",
-      "id": 8,
-      "password": "1234"
-    },
-    {
       "name": "kapil",
       "username": "kapil007",
       "email": "kapil@gmail.com",
@@ -62,6 +55,20 @@
       "email": "preet0896.be20@chitkara.edu.in",
       "password": "1334",
       "id": 19
+    },
+    {
+      "name": "Preet Tyagi",
+      "username": "Preet2001",
+      "email": "preet0896.be20@chitkara.edu.in",
+      "password": "12345",
+      "id": 20
+    },
+    {
+      "name": "Preet Tyagi",
+      "username": "Preet2001",
+      "email": "preet0896.be20@chitkara.edu.in",
+      "password": "12345",
+      "id": 21
     }
   ]
 }

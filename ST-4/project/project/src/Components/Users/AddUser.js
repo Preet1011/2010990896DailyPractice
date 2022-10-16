@@ -43,6 +43,7 @@ export default function AddUser() {
                     <input type="password" name='password' value={password} placeholder="Password" onChange={e=>onValChange(e)} class="form-control"/>
                 </div>
                 <input type="submit" class="btn btn-success"/>
+                <input type="submit" class="btn btn-success"></input>
             </form>
 
         </div>
