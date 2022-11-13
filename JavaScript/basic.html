@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max & MIN</title>
+</head>
+<body>
+    <p id="demo"></p>
+     <script>
+    //     var a=8;
+    //     var b=4;
+    //     var c=10;
+    //    if(a>b && a>c ){
+    //     alert(a);
+    //    }
+    //    else if(b>a && b>c)
+    //     alert(b);
+    //     else{
+    //         alert(c);
+    //     } 
+
+    let day;
+    switch (new Date().getDay()){
+    case 0:
+        day="MOnday";
+  break;
+        case 1:day="Tuesday";
+        
+        case 3:day="Wednesday";
+        break;
+        case 4:day="Thursday";
+        break;
+        case 5:day="Friday";
+        break;
+        case 6:day="Saturday";
+        break;
+        case 7:day="Sunday";
+        break;
+    }
+       document.getElementById("demo").innerHTML="The day is " + day;
+
+    
+        
+
+    </script>
+</body>
+</html>
