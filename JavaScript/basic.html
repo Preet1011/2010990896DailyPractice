@@ -7,7 +7,7 @@
     <title>Max & MIN</title>
 </head>
 <body>
-    <p id="demo"></p>
+    <!-- <p id="demo"></p>
      <script>
     //     var a=8;
     //     var b=4;
@@ -44,6 +44,52 @@
     
         
 
-    </script>
-</body>
+   </script> -->
+    <!-- <p id="loop"></p> -->
+ <!-- <script> -->
+<!-- // const  Names=["Preet","Rahul","Sohan","Manoj","Sachin", "Rudru"];
+// let text="";
+// for(let i of Names){
+//     text +=i +"<br>";  
+// } 
+// document.getElementById("loop").innerHTML=text;
+//     </script> -->
+
+
+
+    <p id ="while"></p>
+    <script>
+    let test="";
+    let t=0;
+    while(t<10){
+        test+= "<br> THe number is " + t;
+        t++;
+    }
+    document.getElementById("while").innerHTML=test;
+</script>
+<p id="demo"></p>
+
+<script>
+let text = "";
+let i = 0;
+while (i < 10) {
+  text += "<br>The number is " + i;
+  i++;
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+<p id="do-while"></p>
+<script>
+let title="";
+let j=5;
+do{
+    title+="<br> The number is " + j;
+    j++;
+}
+while(j<4);
+    document.getElementById("do-while").innerHTML=title;
+
+</script>
+</body> 
 </html>
