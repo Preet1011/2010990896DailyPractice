@@ -16,6 +16,17 @@
             }
         }
     </script>
+    <script>
+        function myfn(){
+            let n2=document.getElementById("n2").value;
+            if(n2 == null || n2 == "" || n2 == " "){
+                document.getElementById("p1").innerHTML = "<span style='color:red;'>Did not write anything</span>";
+            }
+            else{
+                document.getElementById("p1").innerHTML = n1;
+            }
+        }
+    </script>
 </head>
 <body>
     <h1>Hello</h1>

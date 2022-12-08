@@ -11,9 +11,9 @@ int main(){
 	 	ON/=10;
 	 }
 	 if(result==n)
-	 cout<<n<<" is a armstrong no "<<endl;
+	 cout<<n<<" is a Armstrong number "<<endl;
 	 else
-	 cout<<n<<" is not a armstrong "<<endl;
+	 cout<<n<<" is not a Armstrong number"<<endl;
 	 return 0;
 
 	 
